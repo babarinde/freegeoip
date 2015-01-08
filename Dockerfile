@@ -7,4 +7,4 @@ RUN go install
 RUN cp -r public /var/www
 
 ENTRYPOINT ["/gopath/bin/freegeoip"]
-CMD ["-public", "/var/www"]
+#CMD ["-public", "/var/www"]
