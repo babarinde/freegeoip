@@ -6,5 +6,6 @@ RUN go get
 RUN go install
 RUN cp -r public /var/www
 
+EXPOSE 8080
 ENTRYPOINT ["/gopath/bin/freegeoip"]
 #CMD ["-public", "/var/www"]
